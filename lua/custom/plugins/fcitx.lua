@@ -1,0 +1,3 @@
+return{
+'alohaia/fcitx.nvim'
+}
