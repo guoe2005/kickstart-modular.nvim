@@ -60,7 +60,7 @@ vim.api.nvim_set_keymap(
 
 -- Toggle compiler results
 vim.api.nvim_set_keymap('n', '<S-F7>', '<cmd>CompilerToggleResults<cr>', { noremap = true, silent = true })
--- bufferline
+-- {::}[bufferlinebufferline
 -- -- bufferline 左右Tab切换
 --map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
 --map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
@@ -68,4 +68,6 @@ vim.api.nvim_set_keymap('n', '<A-h>', ':BufferLineCyclePrev<CR>', { noremap = tr
 vim.api.nvim_set_keymap('n', '<A-l>', ':BufferLineCycleNext<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<A-q>', ':bd<CR>', { noremap = true })
 
+vim.keymap.set('n', '<leader>cl', 'bywi{:<Esc>wei:}[<Esc>pi]', {})
+vim.keymap.set('n', '<leader>rl', ':so<CR>', {})
 -- vim: ts=2 sts=2 sw=2 et
