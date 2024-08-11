@@ -68,6 +68,6 @@ vim.api.nvim_set_keymap('n', '<A-h>', ':BufferLineCyclePrev<CR>', { noremap = tr
 vim.api.nvim_set_keymap('n', '<A-l>', ':BufferLineCycleNext<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<A-q>', ':bd<CR>', { noremap = true })
 
-vim.keymap.set('n', '<leader>cl', 'bywi{:<Esc>wei:}[<Esc>pi]', {})
+vim.keymap.set('n', '<leader>cl', 'bywlhha{:<Esc>wea:}[<Esc>pa]', {})
 vim.keymap.set('n', '<leader>rl', ':so<CR>', {})
 -- vim: ts=2 sts=2 sw=2 et
