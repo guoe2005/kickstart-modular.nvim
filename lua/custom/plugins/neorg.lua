@@ -7,6 +7,8 @@ return {
     require('neorg').setup {
       load = {
         ['core.concealer'] = {},
+        ['core.ui'] = {},
+        ['core.ui.calendar'] = {},
         ['core.journal'] = {},
         ['core.completion'] = {
           config = {
